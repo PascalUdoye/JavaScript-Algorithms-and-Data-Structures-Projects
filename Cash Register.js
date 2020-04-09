@@ -24,7 +24,7 @@ function checkCashRegister(price, cash, cid) {
  return output;
  }
  if(register.total < change) {
- output.status = 'INSUFFICIENT_FUNDS';
+ output.status = 'INSUFFICIENT_FUNDS'; 
  return output;
  }
  var change_arr = denom.reduce(function(acc, curr) {
