@@ -4,4 +4,4 @@ function telephoneCheck(str) {
   return re.test(str);
 }
 
-telephoneCheck("555-555-5555");
+telephoneCheck("555-555-5555"); 
